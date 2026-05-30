@@ -17,6 +17,8 @@ Tìm những học sinh là Nu và có DiemToan lớn hơn hoặc bằng 8.0.
 
 Tìm những học sinh có DiemToan dưới 5.0 HOẶC DiemVan dưới 5.0.
 
+Lấy ra thông tin của học sinh ở hàng thứ 5 đến hàng thứ 10 (chỉ mục từ 4 đến 9) nhưng chỉ lấy 3 cột: HoTen, DiemToan, DiemVan.
+
 
 Câu 3: Phát hiện và xử lý "rác" (Dữ liệu khuyết)
 
@@ -25,6 +27,7 @@ Dùng code để kiểm tra xem mỗi cột đang bị thiếu bao nhiêu giá t
 Tạo một DataFrame mới tên là df_sach, trong đó xóa bỏ toàn bộ các dòng có chứa giá trị NaN.
 
 Trở lại với cái df ban đầu, đừng xóa nữa. Hãy điền con số 0 vào tất cả những vị trí bị thiếu điểm Toán và điểm Văn. (Từ câu này trở đi, dùng data đã được điền số 0).
+
 
 
 Câu 4: Gom nhóm thống kê
